@@ -22,6 +22,7 @@ body {
 }
 
 .testo-logo {
+    font-size: 40px;
     display: inline;
     vertical-align: middle;
 }
