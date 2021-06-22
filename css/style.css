@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightgray;
+}
+
 .header-top {
-    padding: 10px;
+    padding: 10px 0px ;
     padding-left: 30px;
+    background-color: white;
 }
 
 .logo-img{
@@ -17,4 +22,32 @@
 .testo-logo {
     display: inline;
     vertical-align: middle;
+}
+
+#container-main {
+    width: 900px;
+    height: 700px;
+    border-radius: 5px solid black;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+}
+
+.add-task-button {
+    background-color: #4EA0FF;
+    color: white;
+    border-color: #4EA0FF;
+    border-radius: 7px;
+    padding: 5px 9px;
+}
+
+.add-section-button {
+    background-color: #ffffff;
+    color: grey;
+    border-color: gray;
+    border-radius: 7px;
+    padding: 5px 9px; 
+}
+hr {
+    color: lightgray;
 }
