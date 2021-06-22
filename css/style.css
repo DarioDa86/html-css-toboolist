@@ -8,6 +8,7 @@ body {
     background-color: lightgray;
 }
 
+/*  header */
 .header-top {
     padding: 10px 0px ;
     padding-left: 30px;
@@ -23,21 +24,25 @@ body {
     display: inline;
     vertical-align: middle;
 }
+/* fine header */
 
 #container-main {
     width: 900px;
-    height: 700px;
+    height: 500px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     background-color: white;
+    border-radius: 5px;
 }
-
+/* bottoni */
 .add-task-button {
     background-color: #4EA0FF;
     color: white;
     border-color: #4EA0FF;
     border-radius: 7px;
     padding: 5px 9px;
+    margin: 10px 1.6px 7px 30px;
 }
 
 .add-section-button {
@@ -47,10 +52,40 @@ body {
     border-radius: 7px;
     padding: 5px 9px; 
 }
+/* fine bottoni */
+
 hr {
     color: lightgray;
 }
 
+/* inizio sezioni */
 ul {
     list-style: none;
+}
+
+.sezioni-impaginazione {
+    margin-left: 30px;
+    
+}
+
+.check-ok {
+    display: inline-block;
+    color: green;
+    border-radius: 50%;
+    border: solid green;
+    width: 22px;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.uncheck {
+    display: inline-block;
+    color: red;
+    border-radius: 50%;
+    border: solid red;
+    width: 22px;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
 }
