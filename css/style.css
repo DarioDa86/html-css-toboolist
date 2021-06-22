@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header-top {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.logo-img{
+    vertical-align: middle;
+    
+}
+
+.testo-logo {
+    display: inline;
+    vertical-align: middle;
+}
